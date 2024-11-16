@@ -1,4 +1,4 @@
-site_name: Opensource Documentation
+site_name: Hagen Documentation
 theme:
     name: material
     palette: 
@@ -54,13 +54,12 @@ plugins:
     - blog
 nav:
     - Home: index.md
-    - Code Docs:
-        - Python: coding/python.md
-    # - Installation: 
-    #     - Linux: installation/linux.md
-    #     - Windows: installation/windows.md
-    #     - Mac: installation/mac.md  
-    - About:
-        - About Us: about/about.md
-        - Contact Us: about/contact.md
+    - Getting Started:
+        - Installation: getting-started/1_plugin-installation.md
+        - Activation: getting-started/2_activate-plugin.md
+        - Intro-to-settings: getting-started/3_intro-to-settings.md
+        # - Quick Start: getting-started/quick-start.md
+    # - About:
+    #     - About Us: about/about.md
+    #     - Contact Us: about/contact.md
       
